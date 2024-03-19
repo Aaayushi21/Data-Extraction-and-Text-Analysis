@@ -1,0 +1,41 @@
+How I approached the Solution
+
+Data Extraction:
+Extracting the article text from each URL provided in the Input.xlsx file. 
+Saving each extracted article in a text file with the name of the URL_ID. 
+Ensuring that only the article title and text are extracted, excluding any website header, footer, or irrelevant content. 
+Utilizing Python programming for this task, employing libraries such as BeautifulSoup, Selenium, or Scrapy for web crawling.
+
+Data Analysis:
+Analyzing the textual content extracted from the articles. 
+Computing various variables as specified in the Output Data Structure.xlsx file.
+Performing this analysis using Python programming by refering to the definitions of variables provided in the Text Analysis.docx document for guidance.
+
+Variables:
+Reviewing the definitions of each variable outlined in the Text Analysis.docx file. 
+These variables include POSITIVE SCORE, NEGATIVE SCORE, POLARITY SCORE, SUBJECTIVITY SCORE, AVG SENTENCE LENGTH, PERCENTAGE OF COMPLEX WORDS, FOG INDEX, AVG NUMBER OF WORDS PER SENTENCE, COMPLEX WORD COUNT, WORD COUNT, SYLLABLE PER WORD, PERSONAL PRONOUNS, 
+and AVG WORD LENGTH.
+
+Output Data Structure:
+The output should adhere to the structure provided in the Output Data Structure.xlsx file. 
+It should include all input variables from Input.xlsx, along with the computed variables such as POSITIVE SCORE, NEGATIVE SCORE, POLARITY SCORE, SUBJECTIVITY SCORE, AVG SENTENCE LENGTH, PERCENTAGE OF COMPLEX WORDS, FOG INDEX, AVG NUMBER OF WORDS 
+PER SENTENCE, COMPLEX WORD COUNT, WORD COUNT, SYLLABLE PER WORD, PERSONAL PRONOUNS, and AVG WORD LENGTH.
+
+Ensure the output format matches the specifications provided in the Output Data Structure.xlsx file.
+
+
+
+
+Running .py file to generate output
+
+Command Line Interface (CLI):
+Open Terminal/Command Prompt: Depending on your operating system (Windows, macOS, Linux), open the terminal or command prompt.
+Navigate to the Directory: Use the cd command to navigate to the directory where your Python file is located. 
+Run the Python File: Once you're in the correct directory, run the Python file using the python command followed by the name of your file.
+
+Python Integrated Development Environment (IDE):
+If you're using an IDE like PyCharm, VS Code, or IDLE, the process is usually simpler:
+Open IDE: Launch your preferred Python IDE.
+Open File: Open the .py file you want to run within the IDE.
+Run File: Look for a "Run" or "Execute" button, typically represented by a play symbol ▶️. Click this button to execute the Python script.
+View Output: The output of your Python script will typically be displayed in the console or output window within the IDE.
